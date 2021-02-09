@@ -14,19 +14,19 @@
             <div class="input-group mb-3">
                 <input id="show_meal" type="text" class="form-control" placeholder="search for meal...">
                 <div class="input-group-append">
-                    <button type="button" class="btn btn-danger" id="search_button">Search</button>
+                    <button onclick="searchMeals()" type="button" class="btn btn-danger" id="search_button">Search</button>
                 </div>
             </div>
         </form>
-        <div id="meal-area" class="meal-status text-white text-center">
-            <img id="icon" src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt="">
-            <h3 id="meal_name">Noodles</h3>
-            <h5 id="ingredients">Ingredients</h5>
-            
+        <div id="meal-ingredients" class="single-ingredients text-center">
 
         </div>
-    </div>
 
-    <script src="app.js"></script>   
+        <div id="meal-container" class="search-result col-md-8 mx-auto py-4">
+
+     </div>
+   </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
