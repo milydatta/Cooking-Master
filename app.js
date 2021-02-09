@@ -1,6 +1,6 @@
 const searchMeals = () =>{
     const searchText = document.getElementById('show_meal').value;
-    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=all`
+    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=a`
     //load data
     fetch(url)
     .then(res => res.json())
